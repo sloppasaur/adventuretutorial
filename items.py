@@ -30,3 +30,10 @@ class Rock(Weapon):
                          description = "A fist sized rock, suitable for bludgeioning.",
                          value = 0,
                          damage = 5)
+
+class Dagger(Weapon):
+    def __init__(self):
+        super().__init__(name = "Dagger",
+                         description = "A small dagger with some rust. Somewhat more dangerous than a rock.",
+                         value = 10,
+                         damage = 10)
